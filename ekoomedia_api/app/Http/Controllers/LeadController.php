@@ -3,7 +3,8 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-Use App\Lead;
+use App\Http\Controllers\Controller;
+use App\Models\Lead;
 
 class LeadController extends Controller
 {

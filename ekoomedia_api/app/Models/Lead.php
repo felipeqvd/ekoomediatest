@@ -13,4 +13,6 @@ class Lead extends Model
         'lead_cellphone',
         'lead_age'
     ];
+
+    use HasFactory;
 }
